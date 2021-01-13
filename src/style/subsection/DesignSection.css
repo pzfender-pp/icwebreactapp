@@ -1,0 +1,41 @@
+.design-section {
+  width: 100%;
+  padding: 10px;
+}
+.design-section img {
+  width: 100%;
+}
+.design-section h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 10px 5px;
+}
+.design-section p {
+  letter-spacing: 1.5px;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .design-section {
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+  }
+  .design-section img {
+    width: 48%;
+  }
+  .design-section .text {
+    width: 48%;
+    margin-left: 15px;
+  }
+  .design-section p {
+    line-height: 1.5rem;
+  }
+  .design-reverse{
+    flex-direction: row-reverse;
+  }
+  .design-section .text {
+    margin-right: 20px;
+  }
+}

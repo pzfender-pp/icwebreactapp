@@ -1,0 +1,19 @@
+.back {
+  text-decoration: none;
+  color: #000;
+  position: fixed;
+  top: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.back:hover {
+  color: #fff;
+  background-color:rgba(0, 0, 0, 0.7)
+}
+.header { padding: 10px; }
+.heading { 
+  text-align: center; 
+  margin-top: 10px;
+  font-weight: 700;
+}

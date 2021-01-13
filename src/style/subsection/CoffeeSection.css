@@ -1,0 +1,41 @@
+.coffee-section {
+  width: 100%;
+  padding: 10px;
+}
+.coffee-section img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.coffee-section h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.coffee-section p {
+  letter-spacing: 1.5px;
+  color: #333;
+}
+@media only screen and (min-width: 768px) {
+  .coffee-section {
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+  }
+  .coffee-section .coffee-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .coffee-section .coffee-img img:first-child {
+    grid-column: 1 / span 2;
+  }
+  .coffee-section h2 {
+    font-size: 28px;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  .coffee-section p {
+    font-size: 20px;
+    padding: 10px;
+    line-height: 2rem;
+  }
+}

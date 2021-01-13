@@ -1,0 +1,30 @@
+.main {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.all-section {
+  width: 100%;
+  padding: 10px;
+}
+.all-section img { width: 100%; }
+.all-section h2 {
+  font-size: 20px;
+  padding: 10px 10px 5px;
+}
+.all-section p {
+  letter-spacing: 1.5px;
+  padding: 10px;
+  color: #333;
+}
+
+@media only screen and (min-width: 768px) {
+  .all-section {
+    width: 50%;
+    margin: 20px auto;
+  }
+  .all-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

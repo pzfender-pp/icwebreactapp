@@ -1,0 +1,35 @@
+.branding-section {
+  width: 100%;
+  padding: 10px;
+}
+.branding-section img {
+  width: 100%;
+}
+.branding-section h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.branding-section p {
+  letter-spacing: 1.5px;
+  color: #333;
+}
+
+@media only screen and (min-width: 768px) {
+  .branding-section {
+    width: 70%;
+    padding: 20px;
+    margin: 20px auto;
+  }
+  .branding-section img {
+    margin-bottom: 30px;
+  }
+  .branding-section h2 {
+    font-size: 28px;
+  }
+  .branding-sectionp {
+    font-size: 20px;
+    margin: 0 40px;
+    padding: 20px;
+    line-height: 2rem;
+  }
+}
